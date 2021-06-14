@@ -8,4 +8,4 @@ The File Protector Example can prevent your files from being accessed by unautho
 This C# example creates a filter rule to protect the directory specified at run time. The filter rule was set to protect the folder against the file being renamed, deleted, written. The component is registered with the create and delete IO callback event in the directory. If a file was opened or deleted, the event will be triggered, you can allow or block the IO in the event.
 
 
-
+[Read more about file protector example](https://www.easefilter.com/Forums_Files/FileProtector.htm)
