@@ -368,10 +368,5 @@ namespace FileProtector
             System.Diagnostics.Process.Start("https://blog.easefilter.com/file-protector-demo-step-by-step/");
         }
 
-        private void toolStripButton_ApplyTrialKey_Click(object sender, EventArgs e)
-        {
-            return;
-        }
-       
     }
 }

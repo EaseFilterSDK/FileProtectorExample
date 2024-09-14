@@ -94,13 +94,13 @@ namespace FileProtector
                 }
                 else
                 {
-                    //this is the encrytped file open request, request the encryption key and iv.
+                    //this is the encrypted file open request, request the encryption key and iv.
                     //here is the tag data if you set custom tag data when the new created file requested the key.
                     byte[] tagData = e.EncryptionTag;
 
                     //if (!GetEncryptedFileAccessPermission(e))
                     //{
-                    //    //here didn't get the permission for the encrytped file open, it will return the raw encrypted data.
+                    //    //here didn't get the permission for the encrypted file open, it will return the raw encrypted data.
                     //    e.ReturnStatus = NtStatus.Status.FileIsEncrypted;
                     //}
 
